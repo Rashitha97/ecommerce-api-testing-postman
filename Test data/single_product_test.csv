@@ -1,0 +1,7 @@
+﻿test_case,productId,expected_status
+valid product,1,200
+valid product,5,200
+valid product,10,200
+non-existent product,99999999,404
+invalid product,abc,404
+negative product,-1,404

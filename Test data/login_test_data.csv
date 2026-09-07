@@ -1,0 +1,7 @@
+﻿test_case,username,password,expected_status 
+valid login,emilys,emilyspass,200
+wrong password,emilys,gjghjg,400
+wrong username,ghgh,emilyspass,400
+both invalid,ggjcsd,sdag,400
+missing password,emilys,,400
+missing username,,emilyspass,400
